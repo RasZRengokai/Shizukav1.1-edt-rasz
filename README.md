@@ -4,7 +4,7 @@
 
 **STEP 1**
 ```
-pkg update && pkg upgrade && pkg install bash && pkg install git && git clone https://github.com/Tanmyname/Shizukav1.1.git
+pkg update && pkg upgrade && pkg install bash && pkg install git && git clone https://github.com/RasZRengokai/Shizukav1.1-edt-rasz
 ```
 **STEP 2**
 ```
