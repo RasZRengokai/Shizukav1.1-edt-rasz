@@ -12,46 +12,46 @@ global.wlcm = []
 global.wlcmm = []
 global.versi = '1.1.'
 global.keyopenai = "XlmmVpWzu6r2jRu" //masukkan apikey kamu 
-global.btz = 'masukkan apikey mu di sini'
+global.btz = 'UdS4JHdI'
 //===============SETTING MENU==================\\
 global.thumbnail = fs.readFileSync("./data/image/thumb.jpg")
-global.ig = '--'
-global.yt = 'Tan'
-global.ttowner = '@codenametan'
-global.ownername = '@Tan'
-global.owner = ['6282339835060'] // SETTING JUGA DI FOLDER DATABASE OWNER.json
-global.ownernomer = '6282339835060'
-global.socialm = 'GitHub: Tanmyname'
+global.ig = '-'
+global.yt = '-'
+global.ttowner = '@Fuyma'
+global.ownername = '@Fuuma'
+global.owner = ['62895381760009'] // SETTING JUGA DI FOLDER DATABASE OWNER.json
+global.ownernomer = '62895381760009'
+global.socialm = 'GitHub: Rockrasz'
 global.location = 'Indonesia' 
 //========================setting Payment=====================\\
-global.nodana = '6282339835060' // KOSONG KAN JIKA TIDAK ADA
-global.nogopay = '6282339835060 ' // KOSONG KAN JIKA TIDAK ADA 
+global.nodana = '62895381760009' // KOSONG KAN JIKA TIDAK ADA
+global.nogopay = '62895381760009 ' // KOSONG KAN JIKA TIDAK ADA 
 global.noovo = '' // KOSONG KAN JIKA TIDAK ADA
 //==================setting Payment Name===========================\\
-global.andana = 'Tan' // KOSONG KAN JIKA TIDAK ADA
-global.angopay = 'Tan' // KOSONG KAN JIKA TIDAK ADA
+global.andana = 'Arya' // KOSONG KAN JIKA TIDAK ADA
+global.angopay = 'Arya' // KOSONG KAN JIKA TIDAK ADA
 global.anovo = '' // KOSONG KAN JIKA TIDAK ADA
 //==================setting bot===========================\\
-global.botname = "Tv2"
-global.ownernumber = '6282339835060'
-global.botnumber = '6285198468895'
-global.ownername = '@Tan'
-global.ownerNumber = ["6282339835060@s.whatsapp.net"]
+global.botname = "Senku"
+global.ownernumber = '62895381760009'
+global.botnumber = '6285952871690'
+global.ownername = '@Fuuma'
+global.ownerNumber = ["62895381760009@s.whatsapp.net"]
 global.ownerweb = ""
 global.websitex = ""
 global.gris = '`'
-global.wagc = "https://chat.whatsapp.com/DuolGpi5CIWDR8dYO6E1pC"
-global.saluran = "https://whatsapp.com/channel/0029VaTck0W6GcGMwiq4tQ3k"
+global.wagc = "https://chat.whatsapp.com/GQVBmL6EbxZ6134lvp8XF3"
+global.saluran = "https://chat.whatsapp.com/GQVBmL6EbxZ6134lvp8XF3"
 global.themeemoji = '🪀'
-global.wm = "Tv2 | 6285198468895"
+global.wm = "Fuuma | 62895381760009"
 global.botscript = 'Ngk ada wle😂' //script link
 global.packname = "Sticker By"
-global.author = "\n\n\n\n\nCreate by Tv2\nNo hape/wa : 6285198468895"
-global.creator = "6285198468895@s.whatsapp.net"
+global.author = "\n\n\n\n\nCreate by SHENKU-MD"
+global.creator = "62895381760009@s.whatsapp.net"
 //======================== CPANEL FITUR ===========================\\
 global.domain = '-' // Isi Domain Lu jangan kasih tanda / di akhir link
-global.apikey = '-' // Isi Apikey Plta Lu
-global.capikey = '-' // Isi Apikey Pltc Lu
+global.apikey = 'ptla_cVKTz7IDuO9Ef21wzrajObDoTgha2IOizhsU8uek17i' // Isi Apikey Plta Lu
+global.capikey = 'ptlc_47qFKpSeMJQd23z7x4lmfwsxwkwXAlmPlCn5BzGsGUJ' // Isi Apikey Pltc Lu
 //=========================================================//
 //Server create panel egg pm2
 global.apikey2 = '-' // Isi Apikey Plta Lu
@@ -190,7 +190,7 @@ global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutp
 
 //messages
 global.mess = {
-wait: 'Shizuka-Md | JANGAN SPAM',
+wait: 'Shenku | JANGAN SPAM',
    success: "Sukses",
    on: "Sudah Aktif", 
    off: "Sudah Off",
