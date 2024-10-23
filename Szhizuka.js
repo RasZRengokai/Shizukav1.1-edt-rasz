@@ -2921,7 +2921,7 @@ let msg = generateWAMessageFromContent(
               {
                 header: proto.Message.InteractiveMessage.Header.create({
           ...(await prepareWAMessageMedia({ image: { url: './data/image/thumb.jpg' } }, { upload: Tan.waUploadToServer })),
-          title: `Szhisuka V1`,
+          title: `Shenku V1`,
           gifPlayback: true,
           subtitle: ownername,
           hasMediaAttachment: false
@@ -2947,7 +2947,7 @@ let msg = generateWAMessageFromContent(
               {
                 header: proto.Message.InteractiveMessage.Header.create({
           ...(await prepareWAMessageMedia({ image: { url: './data/image/thumb.jpg' } }, { upload: Tan.waUploadToServer })),
-          title: `Szhisuka V1`,
+          title: `Shenku V1`,
           gifPlayback: true,
           subtitle: ownername,
           hasMediaAttachment: false
@@ -2989,7 +2989,7 @@ await Tan.relayMessage(msg.key.remoteJid, msg.message, {
 break
  case 'menu': {
 	       let ownernya = ownernomer + '@s.whatsapp.net'
-	       replyTan('Loading..')
+//	       replyTan('Loading..')
             let me = m.sender
             let timestampe = speed()
             let latensie = speed() - timestampe
@@ -3068,7 +3068,7 @@ break
           "header": "GROUP MENU",
           "title": "click to display",
           "description": "Displays The List Of Group Features",
-          "id": ".groupmenu"
+          "id": ".grup"
         },
         {
           "header": "OWNER MENU",
@@ -3149,17 +3149,17 @@ break
 
               },                         
               {
-                      name: "cta_url",
-                      buttonParamsJson: `{"display_text":"SCRIPT","url":"https://youtube.com/@grzyzegt1429?si=7pHSyAYpnGaKoUWT","merchant_url":"https://youtube.com/@grzyzegt1429?si=7pHSyAYpnGaKoUWT"}`
+//                      name: "cta_url",
+//                      buttonParamsJson: `{"display_text":"SCRIPT","url":"https://youtube.com/@grzyzegt1429?si=7pHSyAYpnGaKoUWT","merchant_url":"https://youtube.com/@grzyzegt1429?si=7pHSyAYpnGaKoUWT"}`
               },
               {
-                      name: "cta_url",
-                      buttonParamsJson: `{"display_text":"OWNER","url":"https://wa.me/6282339835060","merchant_url":"https://wa.me/6282339835060"}`
+//                      name: "cta_url",
+//                      buttonParamsJson: `{"display_text":"OWNER","url":"https://wa.me/6282339835060","merchant_url":"https://wa.me/6282339835060"}`
               },
                             {
 
-                      name: "cta_url",
-                      buttonParamsJson: `{"display_text":"Github","url":"https://github.com/Tanmyname","merchant_url":"https://github.com/Tanmyname"}`
+//                      name: "cta_url",
+//                      buttonParamsJson: `{"display_text":"Github","url":"https://github.com/Tanmyname","merchant_url":"https://github.com/Tanmyname"}`
               }
            ],
           }),
@@ -4167,7 +4167,7 @@ let msg = generateWAMessageFromContent(from, {
   "name": "single_select",
 "buttonParamsJson": 
 `{
-  "title": "MENU SHIZUKA-MD AI",
+  "title": "MENU SHENKU-MD AI",
   "sections": [
     {
       "title": "${botname}",
@@ -4229,7 +4229,7 @@ let msg = generateWAMessageFromContent(from, {
           }),
           header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./data/image/thumb.jpg')}, { upload: Tan.waUploadToServer})), 
-                  title: `Szhisuka V1`,
+                  title: `Shenku V1`,
                   gifPlayback: true,
                   subtitle: ownername,
                   hasMediaAttachment: false  
@@ -4240,7 +4240,7 @@ let msg = generateWAMessageFromContent(from, {
   "name": "single_select",
 "buttonParamsJson": 
 `{
-  "title": "MENU SHIZUKA-MD",
+  "title": "MENU SHENKU-MD",
   "sections": [
     {
       "title": "${botname}",
@@ -4293,7 +4293,7 @@ let msg = generateWAMessageFromContent(from, {
           "header": "GROUP MENU",
           "title": "click to display",
           "description": "Displays The List Of Group Features",
-          "id": ".groupmenu"
+          "id": ".grup"
         },
         {
           "header": "OWNER MENU",
@@ -4445,7 +4445,7 @@ let msg = generateWAMessageFromContent(from, {
           }),
           header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./data/image/thumb.jpg')}, { upload: Tan.waUploadToServer})), 
-                  title: `Szhisuka V1`,
+                  title: `Shenku V1`,
                   gifPlayback: true,
                   subtitle: ownername,
                   hasMediaAttachment: false  
@@ -4456,7 +4456,7 @@ let msg = generateWAMessageFromContent(from, {
   "name": "single_select",
 "buttonParamsJson": 
 `{
-  "title": "MENU SHIZUKA-MD",
+  "title": "MENU SHENKU-MD",
   "sections": [
     {
       "title": "${botname}",
@@ -4509,7 +4509,7 @@ let msg = generateWAMessageFromContent(from, {
           "header": "GROUP MENU",
           "title": "click to display",
           "description": "Displays The List Of Group Features",
-          "id": ".groupmenu"
+          "id": ".grup"
         },
         {
           "header": "OWNER MENU",
@@ -4660,7 +4660,7 @@ let msg = generateWAMessageFromContent(from, {
           }),
           header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./data/image/thumb.jpg')}, { upload: Tan.waUploadToServer})), 
-                  title: `Szhisuka V1`,
+                  title: `Shenku V1`,
                   gifPlayback: true,
                   subtitle: ownername,
                   hasMediaAttachment: false  
@@ -4671,7 +4671,7 @@ let msg = generateWAMessageFromContent(from, {
   "name": "single_select",
 "buttonParamsJson": 
 `{
-  "title": "MENU SHIZUKA-MD",
+  "title": "MENU SHENKU-MD",
   "sections": [
     {
       "title": "${botname}",
@@ -4724,7 +4724,7 @@ let msg = generateWAMessageFromContent(from, {
           "header": "GROUP MENU",
           "title": "click to display",
           "description": "Displays The List Of Group Features",
-          "id": ".groupmenu"
+          "id": ".grup"
         },
         {
           "header": "OWNER MENU",
@@ -4875,7 +4875,7 @@ let msg = generateWAMessageFromContent(from, {
           }),
           header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./data/image/thumb.jpg')}, { upload: Tan.waUploadToServer})), 
-                  title: `Szhisuka V1`,
+                  title: `Shenku V1`,
                   gifPlayback: true,
                   subtitle: ownername,
                   hasMediaAttachment: false  
@@ -4886,7 +4886,7 @@ let msg = generateWAMessageFromContent(from, {
   "name": "single_select",
 "buttonParamsJson": 
 `{
-  "title": "MENU SHIZUKA-MD",
+  "title": "MENU SHENKU-MD",
   "sections": [
     {
       "title": "${botname}",
@@ -4939,7 +4939,7 @@ let msg = generateWAMessageFromContent(from, {
           "header": "GROUP MENU",
           "title": "click to display",
           "description": "Displays The List Of Group Features",
-          "id": ".groupmenu"
+          "id": ".grup"
         },
         {
           "header": "OWNER MENU",
@@ -5092,7 +5092,7 @@ let msg = generateWAMessageFromContent(from, {
           }),
           header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./data/image/thumb.jpg')}, { upload: Tan.waUploadToServer})), 
-                  title: `Szhisuka V1`,
+                  title: `Shenku V1`,
                   gifPlayback: true,
                   subtitle: ownername,
                   hasMediaAttachment: false  
@@ -5103,7 +5103,7 @@ let msg = generateWAMessageFromContent(from, {
   "name": "single_select",
 "buttonParamsJson": 
 `{
-  "title": "MENU SHIZUKA-MD",
+  "title": "MENU SHENKU-MD",
   "sections": [
     {
       "title": "${botname}",
@@ -5156,7 +5156,7 @@ let msg = generateWAMessageFromContent(from, {
           "header": "GROUP MENU",
           "title": "click to display",
           "description": "Displays The List Of Group Features",
-          "id": ".groupmenu"
+          "id": ".grup"
         },
         {
           "header": "OWNER MENU",
@@ -5309,7 +5309,7 @@ let msg = generateWAMessageFromContent(from, {
           }),
           header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./data/image/thumb.jpg')}, { upload: Tan.waUploadToServer})), 
-                  title: `Szhisuka V1`,
+                  title: `Shenku V1`,
                   gifPlayback: true,
                   subtitle: ownername,
                   hasMediaAttachment: false  
@@ -5320,7 +5320,7 @@ let msg = generateWAMessageFromContent(from, {
   "name": "single_select",
 "buttonParamsJson": 
 `{
-  "title": "MENU SHIZUKA-MD",
+  "title": "MENU SHENKU-MD",
   "sections": [
     {
       "title": "${botname}",
@@ -5373,7 +5373,7 @@ let msg = generateWAMessageFromContent(from, {
           "header": "GROUP MENU",
           "title": "click to display",
           "description": "Displays The List Of Group Features",
-          "id": ".groupmenu"
+          "id": ".grup"
         },
         {
           "header": "OWNER MENU",
@@ -5526,7 +5526,7 @@ let msg = generateWAMessageFromContent(from, {
           }),
           header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./data/image/thumb.jpg')}, { upload: Tan.waUploadToServer})), 
-                  title: `Szhisuka V1`,
+                  title: `Shenku V1`,
                   gifPlayback: true,
                   subtitle: ownername,
                   hasMediaAttachment: false  
@@ -5537,7 +5537,7 @@ let msg = generateWAMessageFromContent(from, {
   "name": "single_select",
 "buttonParamsJson": 
 `{
-  "title": "MENU SHIZUKA-MD",
+  "title": "MENU SHENKU-MD",
   "sections": [
     {
       "title": "${botname}",
@@ -5590,7 +5590,7 @@ let msg = generateWAMessageFromContent(from, {
           "header": "GROUP MENU",
           "title": "click to display",
           "description": "Displays The List Of Group Features",
-          "id": ".groupmenu"
+          "id": ".grup"
         },
         {
           "header": "OWNER MENU",
@@ -5743,7 +5743,7 @@ let msg = generateWAMessageFromContent(from, {
           }),
           header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./data/image/thumb.jpg')}, { upload: Tan.waUploadToServer})), 
-                  title: `Szhisuka V1`,
+                  title: `Shenku V1`,
                   gifPlayback: true,
                   subtitle: ownername,
                   hasMediaAttachment: false  
@@ -5754,7 +5754,7 @@ let msg = generateWAMessageFromContent(from, {
   "name": "single_select",
 "buttonParamsJson": 
 `{
-  "title": "MENU SHIZUKA-MD",
+  "title": "MENU SHENKU-MD",
   "sections": [
     {
       "title": "${botname}",
@@ -5807,7 +5807,7 @@ let msg = generateWAMessageFromContent(from, {
           "header": "GROUP MENU",
           "title": "click to display",
           "description": "Displays The List Of Group Features",
-          "id": ".groupmenu"
+          "id": ".grup"
         },
         {
           "header": "OWNER MENU",
@@ -5957,7 +5957,7 @@ let msg = generateWAMessageFromContent(from, {
           }),
           header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./data/image/thumb.jpg')}, { upload: Tan.waUploadToServer})), 
-                  title: `Szhisuka V1`,
+                  title: `Shenku V1`,
                   gifPlayback: true,
                   subtitle: ownername,
                   hasMediaAttachment: false  
@@ -5968,7 +5968,7 @@ let msg = generateWAMessageFromContent(from, {
   "name": "single_select",
 "buttonParamsJson": 
 `{
-  "title": "MENU SHIZUKA-MD",
+  "title": "MENU SHENKU-MD",
   "sections": [
     {
       "title": "${botname}",
@@ -6021,7 +6021,7 @@ let msg = generateWAMessageFromContent(from, {
           "header": "GROUP MENU",
           "title": "click to display",
           "description": "Displays The List Of Group Features",
-          "id": ".groupmenu"
+          "id": ".grup"
         },
         {
           "header": "OWNER MENU",
@@ -6172,7 +6172,7 @@ let msg = generateWAMessageFromContent(from, {
           }),
           header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./data/image/thumb.jpg')}, { upload: Tan.waUploadToServer})), 
-                  title: `Szhisuka V1`,
+                  title: `Shenku V1`,
                   gifPlayback: true,
                   subtitle: ownername,
                   hasMediaAttachment: false  
@@ -6183,7 +6183,7 @@ let msg = generateWAMessageFromContent(from, {
   "name": "single_select",
 "buttonParamsJson": 
 `{
-  "title": "MENU SHIZUKA-MD",
+  "title": "MENU SHENKU-MD",
   "sections": [
     {
       "title": "${botname}",
@@ -6236,7 +6236,7 @@ let msg = generateWAMessageFromContent(from, {
           "header": "GROUP MENU",
           "title": "click to display",
           "description": "Displays The List Of Group Features",
-          "id": ".groupmenu"
+          "id": ".grup"
         },
         {
           "header": "OWNER MENU",
@@ -6387,7 +6387,7 @@ let msg = generateWAMessageFromContent(from, {
           }),
           header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./data/image/thumb.jpg')}, { upload: Tan.waUploadToServer})), 
-                  title: `Szhisuka V1`,
+                  title: `Shenku V1`,
                   gifPlayback: true,
                   subtitle: ownername,
                   hasMediaAttachment: false  
@@ -6398,7 +6398,7 @@ let msg = generateWAMessageFromContent(from, {
   "name": "single_select",
 "buttonParamsJson": 
 `{
-  "title": "MENU SHIZUKA-MD",
+  "title": "MENU SHENKU-MD",
   "sections": [
     {
       "title": "${botname}",
@@ -6451,7 +6451,7 @@ let msg = generateWAMessageFromContent(from, {
           "header": "GROUP MENU",
           "title": "click to display",
           "description": "Displays The List Of Group Features",
-          "id": ".groupmenu"
+          "id": ".grup"
         },
         {
           "header": "OWNER MENU",
@@ -6667,7 +6667,7 @@ let msg = generateWAMessageFromContent(from, {
           }),
           header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./data/image/thumb.jpg')}, { upload: Tan.waUploadToServer})), 
-                  title: `Szhisuka V1`,
+                  title: `Shenku V1`,
                   gifPlayback: true,
                   subtitle: ownername,
                   hasMediaAttachment: false  
@@ -6678,7 +6678,7 @@ let msg = generateWAMessageFromContent(from, {
   "name": "single_select",
 "buttonParamsJson": 
 `{
-  "title": "MENU SHIZUKA-MD",
+  "title": "MENU SHENKU-MD",
   "sections": [
     {
       "title": "${botname}",
@@ -6725,7 +6725,7 @@ let msg = generateWAMessageFromContent(from, {
           "header": "GROUP MENU",
           "title": "click to display",
           "description": "Displays The List Of Group Features",
-          "id": "grup"
+          "id": ".grup"
         },
         {
           "header": "OWNER MENU",
@@ -6864,7 +6864,7 @@ let msg = generateWAMessageFromContent(from, {
           }),
           header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./data/image/thumb.jpg')}, { upload: Tan.waUploadToServer})), 
-                  title: `Szhisuka V1`,
+                  title: `Shenku V1`,
                   gifPlayback: true,
                   subtitle: ownername,
                   hasMediaAttachment: false  
@@ -6875,7 +6875,7 @@ let msg = generateWAMessageFromContent(from, {
   "name": "single_select",
 "buttonParamsJson": 
 `{
-  "title": "MENU SHIZUKA-MD",
+  "title": "MENU SHENKU-MD",
   "sections": [
     {
       "title": "${botname}",
@@ -6928,7 +6928,7 @@ let msg = generateWAMessageFromContent(from, {
           "header": "GROUP MENU",
           "title": "click to display",
           "description": "Displays The List Of Group Features",
-          "id": ".groupmenu"
+          "id": ".grup"
         },
         {
           "header": "OWNER MENU",
@@ -7078,7 +7078,7 @@ let msg = generateWAMessageFromContent(from, {
           }),
           header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./data/image/thumb.jpg')}, { upload: Tan.waUploadToServer})), 
-                  title: `Szhisuka V1`,
+                  title: `Shenku V1`,
                   gifPlayback: true,
                   subtitle: ownername,
                   hasMediaAttachment: false  
@@ -7089,7 +7089,7 @@ let msg = generateWAMessageFromContent(from, {
   "name": "single_select",
 "buttonParamsJson": 
 `{
-  "title": "MENU SHIZUKA-MD",
+  "title": "MENU SHENKU-MD",
   "sections": [
     {
       "title": "${botname}",
@@ -7142,7 +7142,7 @@ let msg = generateWAMessageFromContent(from, {
           "header": "GROUP MENU",
           "title": "click to display",
           "description": "Displays The List Of Group Features",
-          "id": ".groupmenu"
+          "id": ".grup"
         },
         {
           "header": "OWNER MENU",
@@ -7292,7 +7292,7 @@ let msg = generateWAMessageFromContent(from, {
           }),
           header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./data/image/thumb.jpg')}, { upload: Tan.waUploadToServer})), 
-                  title: `Szhisuka V1`,
+                  title: `Shenku V1`,
                   gifPlayback: true,
                   subtitle: ownername,
                   hasMediaAttachment: false  
@@ -7303,7 +7303,7 @@ let msg = generateWAMessageFromContent(from, {
   "name": "single_select",
 "buttonParamsJson": 
 `{
-  "title": "MENU SHIZUKA-MD",
+  "title": "MENU SHENKU-MD",
   "sections": [
     {
       "title": "${botname}",
@@ -7356,7 +7356,7 @@ let msg = generateWAMessageFromContent(from, {
           "header": "GROUP MENU",
           "title": "click to display",
           "description": "Displays The List Of Group Features",
-          "id": ".groupmenu"
+          "id": ".grup"
         },
         {
           "header": "OWNER MENU",
@@ -7507,7 +7507,7 @@ let msg = generateWAMessageFromContent(from, {
           }),
           header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./data/image/thumb.jpg')}, { upload: Tan.waUploadToServer})), 
-                  title: `Szhisuka V1`,
+                  title: `Shenku V1`,
                   gifPlayback: true,
                   subtitle: ownername,
                   hasMediaAttachment: false  
@@ -7518,7 +7518,7 @@ let msg = generateWAMessageFromContent(from, {
   "name": "single_select",
 "buttonParamsJson": 
 `{
-  "title": "MENU SHIZUKA-MD",
+  "title": "MENU SHENKU-MD",
   "sections": [
     {
       "title": "${botname}",
@@ -7571,7 +7571,7 @@ let msg = generateWAMessageFromContent(from, {
           "header": "GROUP MENU",
           "title": "click to display",
           "description": "Displays The List Of Group Features",
-          "id": ".groupmenu"
+          "id": ".grup"
         },
         {
           "header": "OWNER MENU",
@@ -7721,7 +7721,7 @@ let msg = generateWAMessageFromContent(from, {
           }),
           header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./data/image/thumb.jpg')}, { upload: Tan.waUploadToServer})), 
-                  title: `Szhisuka V1`,
+                  title: `Shenku V1`,
                   gifPlayback: true,
                   subtitle: ownername,
                   hasMediaAttachment: false  
@@ -7732,7 +7732,7 @@ let msg = generateWAMessageFromContent(from, {
   "name": "single_select",
 "buttonParamsJson": 
 `{
-  "title": "MENU SHIZUKA-MD",
+  "title": "MENU SHENKU-MD",
   "sections": [
     {
       "title": "${botname}",
@@ -7785,7 +7785,7 @@ let msg = generateWAMessageFromContent(from, {
           "header": "GROUP MENU",
           "title": "click to display",
           "description": "Displays The List Of Group Features",
-          "id": ".groupmenu"
+          "id": ".grup"
         },
         {
           "header": "OWNER MENU",
@@ -7935,7 +7935,7 @@ let msg = generateWAMessageFromContent(from, {
           }),
           header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./data/image/thumb.jpg')}, { upload: Tan.waUploadToServer})), 
-                  title: `Szhisuka V1`,
+                  title: `Shenku V1`,
                   gifPlayback: true,
                   subtitle: ownername,
                   hasMediaAttachment: false  
@@ -7946,7 +7946,7 @@ let msg = generateWAMessageFromContent(from, {
   "name": "single_select",
 "buttonParamsJson": 
 `{
-  "title": "MENU SHIZUKA-MD",
+  "title": "MENU SHENKU-MD",
   "sections": [
     {
       "title": "${botname}",
@@ -7999,7 +7999,7 @@ let msg = generateWAMessageFromContent(from, {
           "header": "GROUP MENU",
           "title": "click to display",
           "description": "Displays The List Of Group Features",
-          "id": ".groupmenu"
+          "id": ".grup"
         },
         {
           "header": "OWNER MENU",
@@ -8149,7 +8149,7 @@ let msg = generateWAMessageFromContent(from, {
           }),
           header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./data/image/thumb.jpg')}, { upload: Tan.waUploadToServer})), 
-                  title: `Szhisuka V1`,
+                  title: `Shenku V1`,
                   gifPlayback: true,
                   subtitle: ownername,
                   hasMediaAttachment: false  
@@ -8160,7 +8160,7 @@ let msg = generateWAMessageFromContent(from, {
   "name": "single_select",
 "buttonParamsJson": 
 `{
-  "title": "MENU SHIZUKA-MD",
+  "title": "MENU SHENKU-MD",
   "sections": [
     {
       "title": "${botname}",
@@ -8213,7 +8213,7 @@ let msg = generateWAMessageFromContent(from, {
           "header": "GROUP MENU",
           "title": "click to display",
           "description": "Displays The List Of Group Features",
-          "id": ".groupmenu"
+          "id": ".grup"
         },
         {
           "header": "OWNER MENU",
@@ -8363,7 +8363,7 @@ let msg = generateWAMessageFromContent(from, {
           }),
           header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./data/image/thumb.jpg')}, { upload: Tan.waUploadToServer})), 
-                  title: `Szhisuka V1`,
+                  title: `Shenku V1`,
                   gifPlayback: true,
                   subtitle: ownername,
                   hasMediaAttachment: false  
@@ -8374,7 +8374,7 @@ let msg = generateWAMessageFromContent(from, {
   "name": "single_select",
 "buttonParamsJson": 
 `{
-  "title": "MENU SHIZUKA-MD",
+  "title": "MENU SHENKU-MD",
   "sections": [
     {
       "title": "${botname}",
@@ -8427,7 +8427,7 @@ let msg = generateWAMessageFromContent(from, {
           "header": "GROUP MENU",
           "title": "click to display",
           "description": "Displays The List Of Group Features",
-          "id": ".groupmenu"
+          "id": ".grup"
         },
         {
           "header": "OWNER MENU",
@@ -8578,7 +8578,7 @@ let msg = generateWAMessageFromContent(from, {
           }),
           header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./data/image/thumb.jpg')}, { upload: Tan.waUploadToServer})), 
-                  title: `Szhisuka V1`,
+                  title: `Shenku V1`,
                   gifPlayback: true,
                   subtitle: ownername,
                   hasMediaAttachment: false  
@@ -8589,7 +8589,7 @@ let msg = generateWAMessageFromContent(from, {
   "name": "single_select",
 "buttonParamsJson": 
 `{
-  "title": "MENU SHIZUKA-MD",
+  "title": "MENU SHENKU-MD",
   "sections": [
     {
       "title": "${botname}",
@@ -8642,7 +8642,7 @@ let msg = generateWAMessageFromContent(from, {
           "header": "GROUP MENU",
           "title": "click to display",
           "description": "Displays The List Of Group Features",
-          "id": ".groupmenu"
+          "id": ".grup"
         },
         {
           "header": "OWNER MENU",
@@ -8793,7 +8793,7 @@ let msg = generateWAMessageFromContent(from, {
           }),
           header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./data/image/thumb.jpg')}, { upload: Tan.waUploadToServer})), 
-                  title: `Szhisuka V1`,
+                  title: `Shenku V1`,
                   gifPlayback: true,
                   subtitle: ownername,
                   hasMediaAttachment: false  
@@ -8804,7 +8804,7 @@ let msg = generateWAMessageFromContent(from, {
   "name": "single_select",
 "buttonParamsJson": 
 `{
-  "title": "MENU SHIZUKA-MD",
+  "title": "MENU SHENKU-MD",
   "sections": [
     {
       "title": "${botname}",
@@ -8857,7 +8857,7 @@ let msg = generateWAMessageFromContent(from, {
           "header": "GROUP MENU",
           "title": "click to display",
           "description": "Displays The List Of Group Features",
-          "id": ".groupmenu"
+          "id": ".grup"
         },
         {
           "header": "OWNER MENU",
@@ -9008,7 +9008,7 @@ let msg = generateWAMessageFromContent(from, {
           }),
           header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./data/image/thumb.jpg')}, { upload: Tan.waUploadToServer})), 
-                  title: `Szhisuka V1`,
+                  title: `Shenku V1`,
                   gifPlayback: true,
                   subtitle: ownername,
                   hasMediaAttachment: false  
@@ -9019,7 +9019,7 @@ let msg = generateWAMessageFromContent(from, {
   "name": "single_select",
 "buttonParamsJson": 
 `{
-  "title": "MENU SHIZUKA-MD",
+  "title": "MENU SHENKU-MD",
   "sections": [
     {
       "title": "${botname}",
@@ -9072,7 +9072,7 @@ let msg = generateWAMessageFromContent(from, {
           "header": "GROUP MENU",
           "title": "click to display",
           "description": "Displays The List Of Group Features",
-          "id": ".groupmenu"
+          "id": ".grup"
         },
         {
           "header": "OWNER MENU",
@@ -9223,7 +9223,7 @@ let msg = generateWAMessageFromContent(from, {
           }),
           header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./data/image/thumb.jpg')}, { upload: Tan.waUploadToServer})), 
-                  title: `Szhisuka V1`,
+                  title: `Shenku V1`,
                   gifPlayback: true,
                   subtitle: ownername,
                   hasMediaAttachment: false  
@@ -9234,7 +9234,7 @@ let msg = generateWAMessageFromContent(from, {
   "name": "single_select",
 "buttonParamsJson": 
 `{
-  "title": "MENU SHIZUKA-MD",
+  "title": "MENU SHENKU-MD",
   "sections": [
     {
       "title": "${botname}",
@@ -9287,7 +9287,7 @@ let msg = generateWAMessageFromContent(from, {
           "header": "GROUP MENU",
           "title": "click to display",
           "description": "Displays The List Of Group Features",
-          "id": ".groupmenu"
+          "id": ".grup"
         },
         {
           "header": "OWNER MENU",
@@ -9438,7 +9438,7 @@ let msg = generateWAMessageFromContent(from, {
           }),
           header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./data/image/thumb.jpg')}, { upload: Tan.waUploadToServer})), 
-                  title: `Szhisuka V1`,
+                  title: `Shenku V1`,
                   gifPlayback: true,
                   subtitle: ownername,
                   hasMediaAttachment: false  
@@ -9449,7 +9449,7 @@ let msg = generateWAMessageFromContent(from, {
   "name": "single_select",
 "buttonParamsJson": 
 `{
-  "title": "MENU SHIZUKA-MD",
+  "title": "MENU SHENKU-MD",
   "sections": [
     {
       "title": "${botname}",
@@ -9502,7 +9502,7 @@ let msg = generateWAMessageFromContent(from, {
           "header": "GROUP MENU",
           "title": "click to display",
           "description": "Displays The List Of Group Features",
-          "id": ".groupmenu"
+          "id": ".grup"
         },
         {
           "header": "OWNER MENU",
@@ -13748,7 +13748,7 @@ let msg = generateWAMessageFromContent(from, {
         }),
         header: proto.Message.InteractiveMessage.Header.create({
           ...(await prepareWAMessageMedia({ image: { url: './data/image/thumb.jpg' } }, { upload: Tan.waUploadToServer })),
-          title: `Szhisuka V1`,
+          title: `Shenku V1`,
           gifPlayback: true,
           subtitle: ownername,
           hasMediaAttachment: false
@@ -13853,7 +13853,7 @@ replyTan('Success in turning off antivirus this group')
         }),
         header: proto.Message.InteractiveMessage.Header.create({
           ...(await prepareWAMessageMedia({ image: { url: './data/image/thumb.jpg' } }, { upload: Tan.waUploadToServer })),
-          title: `Szhisuka V1`,
+          title: `Shenku V1`,
           gifPlayback: true,
           subtitle: ownername,
           hasMediaAttachment: false
@@ -13943,7 +13943,7 @@ replyTan('Success in turning off youtube video antilink in this group')
         }),
         header: proto.Message.InteractiveMessage.Header.create({
           ...(await prepareWAMessageMedia({ image: { url: './data/image/thumb.jpg' } }, { upload: Tan.waUploadToServer })),
-          title: `Szhisuka V1`,
+          title: `Shenku V1`,
           gifPlayback: true,
           subtitle: ownername,
           hasMediaAttachment: false
@@ -14033,7 +14033,7 @@ replyTan('Success in turning off youtube channel antilink in this group')
         }),
         header: proto.Message.InteractiveMessage.Header.create({
           ...(await prepareWAMessageMedia({ image: { url: './data/image/thumb.jpg' } }, { upload: Tan.waUploadToServer })),
-          title: `Szhisuka V1`,
+          title: `Shenku V1`,
           gifPlayback: true,
           subtitle: ownername,
           hasMediaAttachment: false
@@ -14123,7 +14123,7 @@ replyTan('Success in turning off instagram antilink in this group')
         }),
         header: proto.Message.InteractiveMessage.Header.create({
           ...(await prepareWAMessageMedia({ image: { url: './data/image/thumb.jpg' } }, { upload: Tan.waUploadToServer })),
-          title: `Szhisuka V1`,
+          title: `Shenku V1`,
           gifPlayback: true,
           subtitle: ownername,
           hasMediaAttachment: false
@@ -14213,7 +14213,7 @@ replyTan('Success in turning off facebook antilink in this group')
         }),
         header: proto.Message.InteractiveMessage.Header.create({
           ...(await prepareWAMessageMedia({ image: { url: './data/image/thumb.jpg' } }, { upload: Tan.waUploadToServer })),
-          title: `Szhisuka V1`,
+          title: `Shenku V1`,
           gifPlayback: true,
           subtitle: ownername,
           hasMediaAttachment: false
@@ -14303,7 +14303,7 @@ replyTan('Success in turning off telegram antilink in this group')
         }),
         header: proto.Message.InteractiveMessage.Header.create({
           ...(await prepareWAMessageMedia({ image: { url: './data/image/thumb.jpg' } }, { upload: Tan.waUploadToServer })),
-          title: `Szhisuka V1`,
+          title: `Shenku V1`,
           gifPlayback: true,
           subtitle: ownername,
           hasMediaAttachment: false
@@ -14393,7 +14393,7 @@ replyTan('Success in turning off tiktok antilink in this group')
         }),
         header: proto.Message.InteractiveMessage.Header.create({
           ...(await prepareWAMessageMedia({ image: { url: './data/image/thumb.jpg' } }, { upload: Tan.waUploadToServer })),
-          title: `Szhisuka V1`,
+          title: `Shenku V1`,
           gifPlayback: true,
           subtitle: ownername,
           hasMediaAttachment: false
@@ -14483,7 +14483,7 @@ replyTan('Success in turning off twitter antilink in this group')
         }),
         header: proto.Message.InteractiveMessage.Header.create({
           ...(await prepareWAMessageMedia({ image: { url: './data/image/thumb.jpg' } }, { upload: Tan.waUploadToServer })),
-          title: `Szhisuka V1`,
+          title: `Shenku V1`,
           gifPlayback: true,
           subtitle: ownername,
           hasMediaAttachment: false
@@ -14573,7 +14573,7 @@ replyTan('Success in turning off all antilink in this group')
         }),
         header: proto.Message.InteractiveMessage.Header.create({
           ...(await prepareWAMessageMedia({ image: { url: './data/image/thumb.jpg' } }, { upload: Tan.waUploadToServer })),
-          title: `Szhisuka V1`,
+          title: `Shenku V1`,
           gifPlayback: true,
           subtitle: ownername,
           hasMediaAttachment: false
@@ -14663,7 +14663,7 @@ replyTan('Success in turning off antitoxic in this group')
         }),
         header: proto.Message.InteractiveMessage.Header.create({
           ...(await prepareWAMessageMedia({ image: { url: './data/image/thumb.jpg' } }, { upload: Tan.waUploadToServer })),
-          title: `Szhisuka V1`,
+          title: `Shenku V1`,
           gifPlayback: true,
           subtitle: ownername,
           hasMediaAttachment: false
@@ -14753,7 +14753,7 @@ replyTan('Success in turning off antiwame in this group')
         }),
         header: proto.Message.InteractiveMessage.Header.create({
           ...(await prepareWAMessageMedia({ image: { url: './data/image/thumb.jpg' } }, { upload: Tan.waUploadToServer })),
-          title: `Szhisuka V1`,
+          title: `Shenku V1`,
           gifPlayback: true,
           subtitle: ownername,
           hasMediaAttachment: false
@@ -14844,7 +14844,7 @@ let msg = generateWAMessageFromContent(from, {
         }),
         header: proto.Message.InteractiveMessage.Header.create({
           ...(await prepareWAMessageMedia({ image: { url: './data/image/thumb.jpg' } }, { upload: Tan.waUploadToServer })),
-          title: `Szhisuka V1`,
+          title: `Shenku V1`,
           gifPlayback: true,
           subtitle: ownername,
           hasMediaAttachment: false
@@ -21478,28 +21478,28 @@ replyTan(`Tidak dapat menemukan case "${caseName}" untuk dihapus.`);
 }
 }
 break
-case "removebg":
-let rbg = `Fitur ini membutuhkan apikey masukkan apikey kamu dengan membuka file Szhizuka.js dan masukkan apikey mu di case 'removebg'\nEglish version: This feature requires an apikey. Enter your apikey by opening the Szhizuka.js file and enter your apikey in the case 'removebg'`
-reply(rbg)
-break   
-// case 'removebg':
-//         case 'snobg':{
-//         	if (!quoted) return reply(`Fotonya Mana?`)
-//         if (!/image/.test(mime)) return reply(`Send/Reply Foto Dengan Caption ${prefix + command}`)
-//         let media = await quoted.download()
-//         let img = await uploadImage(media)
-//         replyTan('wait')
-//         let api = await fetch(`masukkan apikey mu di sini`)
-//         let betaku = await api.json();
-//         let buffer = await getBuffer(betaku.url.result)
-//         Tan.sendMessage(m.chat, {
-//         	image: buffer,
-//         caption: 'SUCCES : RESULT FROM api.betabotz.eu.org'
-//         }, {
-//         	quoted: fcall
-//         })
-//         }
-//         break
+//case "removebg":
+//let rbg = `Fitur ini membutuhkan apikey masukkan apikey kamu dengan membuka file Szhizuka.js dan masukkan apikey mu di case 'removebg'\nEglish version: This feature requires an apikey. Enter your apikey by opening the Szhizuka.js file and enter your apikey in the case 'removebg'`
+//reply(rbg)
+//break   
+        case 'removebg':
+        case 'snobg':{
+        	if (!quoted) return reply(`Fotonya Mana?`)
+        if (!/image/.test(mime)) return reply(`Send/Reply Foto Dengan Caption ${prefix + command}`)
+        let media = await quoted.download()
+        let img = await uploadImage(media)
+        await loading();
+        let api = await fetch(`https://api.betabotz.eu.org/api/tools/removebg?url=${img}&apikey=${btz}`)
+        let betaku = await api.json();
+        let buffer = await getBuffer(betaku.url.result)
+        beta.sendMessage(m.chat, {
+        	image: buffer,
+        caption: 'SUCCES : RESULT FROM api.betabotz.eu.org'
+        }, {
+        	quoted: m
+        })
+        }
+        break
 
 case 'lyrics':
            case 'lirik':{
@@ -21523,43 +21523,43 @@ case 'lyrics':
            }
            break
            
-case "ytmp4":
-let yt4 = `Fitur ini membutuhkan apikey masukkan apikey kamu dengan membuka file Szhizuka.js dan masukkan apikey mu di case 'ytmp4'\nEglish version: This feature requires an apikey. Enter your apikey by opening the Szhizuka.js file and enter your apikey in the case 'ytmp4'`
-reply(yt4)
-break   
+//case "ytmp4":
+//let yt4 = `Fitur ini membutuhkan apikey masukkan apikey kamu dengan membuka file Szhizuka.js dan masukkan apikey mu di case 'ytmp4'\nEglish version: This feature requires an apikey. Enter your apikey by opening the Szhizuka.js file and enter your apikey in the case 'ytmp4'`
+//reply(yt4)
+//break   
 
-//   case 'ytmp4':{
-//         	if (!args[0]) return reply(`Input Parameter Url Dari ${command}\n\nExample : ${prefix + command} Url`)
-//         reply('Bentar')
-//         let api = await fetch(`Masukkan apikey mu di sini !!`)
-//         let betaku = await api.json();
-//         
-//         const {
-//         title,
-//         desc,
-//         thum,
-//         view,
-//         channel,
-//         uploadDate
-//         } = betaku.result
-//         
-//         const {
-//         mp4,
-//         size,
-//         quality
-//         } = betaku.result
-//         
-//         Tan.sendMessage(m.chat, {
-//         document: {
-//         	url: mp4
-//         },
-//         caption: 'SUCCES BENTUK DOKUMENT BIAR JERNIH',
-//         mimetype: 'video/mp4'
-//         }, {
-//         	quoted: fcall
-//         })
-//         }
-//         break
+   case 'ytmp4':{
+         	if (!args[0]) return reply(`Input Parameter Url Dari ${command}\n\nExample : ${prefix + command} Url`)
+         reply('Bentar')
+         let api = await fetch(`https://api.betabotz.eu.org/api/download/ytmp4?url=${args[0]}&apikey=${btz}`)
+         let betaku = await api.json();
+         
+         const {
+         title,
+         desc,
+         thum,
+         view,
+         channel,
+         uploadDate
+         } = betaku.result
+         
+         const {
+         mp4,
+         size,
+         quality
+         } = betaku.result
+         
+         Tan.sendMessage(m.chat, {
+         document: {
+         	url: mp4
+         },
+         caption: 'SUCCES BENTUK DOKUMENT BIAR JERNIH',
+         mimetype: 'video/mp4'
+         }, {
+         	quoted: fcall
+         })
+         }
+         break
 case 'ytmp3':{
         	if (!args[0]) return reply(`Input Parameter Url Dari ${command}\n\nExample : ${prefix + command} Url`)
         replyTan('wait')
@@ -23129,7 +23129,7 @@ let msg = generateWAMessageFromContent(from, {
         }),
         header: proto.Message.InteractiveMessage.Header.create({
           ...(await prepareWAMessageMedia({ image: { url: './data/image/thumb.jpg' } }, { upload: Tan.waUploadToServer })),
-          title: `Szhisuka V1`,
+          title: `Shenku V1`,
           gifPlayback: true,
           subtitle: ownername,
           hasMediaAttachment: false
@@ -30200,10 +30200,10 @@ case 'xnxxsearch': {
               }
               break
               
-case "pin":
-let pn =`Fitur ini membutuhkan apikey buka file Shizuka.js dan masukkan apikey mu di case 'pin'`
-reply(pn)
-break
+//case "pin":
+//let pn =`Fitur ini membutuhkan apikey buka file Shizuka.js dan masukkan apikey mu di case 'pin'`
+//reply(pn)
+//break
               // case 'pin':
 //               case 'pinterest': {
 //     let input = "> _contoh: pin Marsha lenathea_";
@@ -30265,6 +30265,26 @@ break
 //     });
 // };
 // break
+
+         case 'pinterest':
+         {
+         if (text) return m.reply(`Ex: ${prefix + command} kucing`);
+         beta.sendMessage(m.chat, { react: { text: '🕒', key: m.key }})
+                 if (!args[0]) return reply(`Example : ${prefix + command} BetaBotz`)                                           
+                 let data = await fetchJson(`https://api.betabotz.eu.org/api/search/pinterest?text1=${args[0]}&apikey=${btz}`);
+                 try {
+                 let limit = Math.min(5, data.result.length);
+                 await loading();
+                 for (let i = 1; i < limit; i++) {
+                 const imgs = data.result[i];
+                beta.sendMessage(m.chat, { image : { url: imgs }}, { quoted: m });                  
+                 }
+             } catch (e) {
+                 console.log(e);
+                 reply(message.error);
+             }
+         }
+         break
 case 'ringtone': {
 		if (!text) return replyTan(`Example : ${prefix + command} black rover`)
         let { ringtone } = require('./lib/scraper')
