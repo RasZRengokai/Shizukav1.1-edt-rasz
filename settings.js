@@ -32,7 +32,7 @@ global.andana = 'Arya' // KOSONG KAN JIKA TIDAK ADA
 global.angopay = 'Arya' // KOSONG KAN JIKA TIDAK ADA
 global.anovo = '' // KOSONG KAN JIKA TIDAK ADA
 //==================setting bot===========================\\
-global.botname = "Senku"
+global.botname = "Shenku"
 global.ownernumber = '62895381760009'
 global.botnumber = '6285952871690'
 global.ownername = '@Fuuma'
