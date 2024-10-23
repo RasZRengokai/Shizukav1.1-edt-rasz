@@ -805,7 +805,7 @@ isForwarded: true,
 "body": `${Tanwaktu} ${pushname} 👋🏻`,
 "previewType": "VIDEO",
 "thumbnailUrl": 'https://telegra.ph/file/8b0ee918ab719b42b7ce7.jpg',
-"sourceUrl": 'https://chat.whatsapp.com/Ktfr9UasGoFKpq0qPoCh1c'}}},
+"sourceUrl": ''}}},
 { quoted: fkontak})
 }
 
@@ -2880,7 +2880,7 @@ break
 case 'restart':
 if (!isTanOwner) return reply(mess.only.owner)
 replyTan(`restarting ${global.botname}`)
-replyTan(`Done ✅`)
+//replyTan(`Done ✅`)
 await sleep(3000)
 process.exit()
 break
@@ -30316,32 +30316,32 @@ console.log(err)
 return replyTan('Error')
 }
 break
-case 'patrick':
-case 'patricksticker': {
-var ano = await fetchJson('https://raw.githubusercontent.com/DGXeon/XeonMedia/main/patrick')
-var wifegerak = ano.split('\n')
-var wifegerakx = wifegerak[Math.floor(Math.random() * wifegerak.length)]
-encmedia = await Tan.sendImageAsSticker(from, wifegerakx, m, { packname: global.packname, author: global.author, })
-}
-break
-case 'dogesticker':
-case 'dogestick':
-	case 'doge':{
-var ano = await fetchJson('https://raw.githubusercontent.com/DGXeon/XeonMedia/main/doge')
-var wifegerak = ano.split('\n')
-var wifegerakx = wifegerak[Math.floor(Math.random() * wifegerak.length)]
-encmedia = await Tan.sendImageAsSticker(from, wifegerakx, m, { packname: global.packname, author: global.author, })
-}
-break
-case 'lovesticker':
-case 'lovestick' :{
-var ano = await fetchJson('https://raw.githubusercontent.com/DGXeon/XeonMedia/main/love')
-var wifegerak = ano.split('\n')
-var wifegerakx = wifegerak[Math.floor(Math.random() * wifegerak.length)]
-encmedia = await Tan.sendImageAsSticker(from, wifegerakx, m, { packname: global.packname, author: global.author, })
-
-}
-break
+//case 'patrick':
+//case 'patricksticker': {
+//var ano = await fetchJson('https://raw.githubusercontent.com/DGXeon/XeonMedia/main/patrick')
+//var wifegerak = ano.split('\n')
+//var wifegerakx = wifegerak[Math.floor(Math.random() * wifegerak.length)]
+//encmedia = await Tan.sendImageAsSticker(from, wifegerakx, m, { packname: global.packname, author: global.author, })
+//}
+//break
+//case 'dogesticker':
+//case 'dogestick':
+//	case 'doge':{
+//var ano = await fetchJson('https://raw.githubusercontent.com/DGXeon/XeonMedia/main/doge')
+//var wifegerak = ano.split('\n')
+//var wifegerakx = wifegerak[Math.floor(Math.random() * wifegerak.length)]
+//encmedia = await Tan.sendImageAsSticker(from, wifegerakx, m, { packname: global.packname, author: global.author, })
+//}
+//break
+//case 'lovesticker':
+//case 'lovestick' :{
+//var ano = await fetchJson('https://raw.githubusercontent.com/DGXeon/XeonMedia/main/love')
+//var wifegerak = ano.split('\n')
+//var wifegerakx = wifegerak[Math.floor(Math.random() * wifegerak.length)]
+//encmedia = await Tan.sendImageAsSticker(from, wifegerakx, m, { packname: global.packname, author: global.author, })
+//
+//}
+//break
 
 case 'play':{
   if (!q) return replyTan("Kirim perintah judul lagu/link youtube nya bwang")
@@ -30390,15 +30390,15 @@ reply('otw')
   }
     break
 
-case 'gura':
-case 'gurastick':{
-var ano = await fetchJson('https://raw.githubusercontent.com/DGXeon/XeonMedia/main/gura')
-var wifegerak = ano.split('\n')
-var wifegerakx = wifegerak[Math.floor(Math.random() * wifegerak.length)]
-encmedia = await Tan.sendImageAsSticker(from, wifegerakx, m, { packname: global.packname, author: global.author, })
+//case 'gura':
+//case 'gurastick':{
+//var ano = await fetchJson('https://raw.githubusercontent.com/DGXeon/XeonMedia/main/gura')
+//var wifegerak = ano.split('\n')
+//var wifegerakx = wifegerak[Math.floor(Math.random() * wifegerak.length)]
+//encmedia = await Tan.sendImageAsSticker(from, wifegerakx, m, { packname: global.packname, author: global.author, })
 
-}
-break
+//}
+//break
 	case 'anime': {
 if (!text) return replyTan(`Anime Apa Yang Anda Cari?`)
 replyTan(`Sedang Proses Permintaan...`)
