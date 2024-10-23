@@ -21492,7 +21492,7 @@ break
         let api = await fetch(`https://api.betabotz.eu.org/api/tools/removebg?url=${img}&apikey=${btz}`)
         let betaku = await api.json();
         let buffer = await getBuffer(betaku.url.result)
-        beta.sendMessage(m.chat, {
+        Tan.sendMessage(m.chat, {
         	image: buffer,
         caption: 'SUCCES : RESULT FROM api.betabotz.eu.org'
         }, {
@@ -30268,8 +30268,6 @@ case 'xnxxsearch': {
 
          case 'pinterest':
          {
-         if (text) return m.reply(`Ex: ${prefix + command} kucing`);
-         beta.sendMessage(m.chat, { react: { text: '🕒', key: m.key }})
                  if (!args[0]) return reply(`Example : ${prefix + command} BetaBotz`)                                           
                  let data = await fetchJson(`https://api.betabotz.eu.org/api/search/pinterest?text1=${args[0]}&apikey=${btz}`);
                  try {
@@ -30277,7 +30275,7 @@ case 'xnxxsearch': {
                  await loading();
                  for (let i = 1; i < limit; i++) {
                  const imgs = data.result[i];
-                beta.sendMessage(m.chat, { image : { url: imgs }}, { quoted: m });                  
+                Tan.sendMessage(m.chat, { image : { url: imgs }}, { quoted: m });                  
                  }
              } catch (e) {
                  console.log(e);
